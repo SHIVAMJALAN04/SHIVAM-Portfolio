@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shivam Jalan | Portfolio</title>
+<meta name="description" content="Shivam Jalan — B.Tech CSE student exploring machine learning, deep learning and computer vision." />
+<link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)" />
+<link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin />
+<link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap)" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo">shivam<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="nav-cta">Let's talk ↗</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="bg-code" aria-hidden="true">
+    <pre>import tensorflow as tf
+model = tf.keras.Sequential([
+  tf.keras.layers.Dense(128, activation="relu"),
+  tf.keras.layers.Dropout(0.3),
+  tf.keras.layers.Dense(1, activation="sigmoid")
+])
+model.compile(optimizer="adam", loss="binary_crossentropy")
+model.fit(X_train, y_train, epochs=10)</pre>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="badge"><span class="pulse"></span>OPEN TO LEARNING &amp; OPPORTUNITIES</span>
+      <p class="hero-kicker">COMPUTER SCIENCE STUDENT · AI/ML ENTHUSIAST</p>
+      <h1>Building with curiosity.<br /><em>Learning with purpose.</em></h1>
+      <p class="hero-desc">
+        I'm Shivam, a B.Tech Computer Science student exploring machine learning,
+        deep learning and computer vision — one practical project at a time.
+      </p>
+      <div class="hero-meta">
+        <span>📍 India</span>
+        <span>🎓 B.Tech CSE · 2028</span>
+        <span>✦ Open to learning &amp; opportunities</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Explore my work ↘</a>
+        <a href="[github.com](https://github.com/SHIVAMJALAN04)" target="_blank" rel="noopener" class="btn btn-ghost">GitHub profile ↗</a>
+      </div>
+    </div>
+
+    <aside class="profile-card">
+      <div class="avatar">
+        <img src="photo.png" alt="Shivam Jalan" onerror="this.style.display='none';this.parentNode.classList.add('no-photo')" />
+        <span class="avatar-fallback">SJ</span>
+      </div>
+      <h3>Shivam Jalan</h3>
+      <p class="role">Aspiring AI &amp; Machine Learning Engineer</p>
+      <ul class="facts">
+        <li><span>Graduation</span><strong>2028</strong></li>
+        <li><span>CGPA</span><strong>8.00</strong></li>
+        <li><span>Projects</span><strong>01+</strong></li>
+        <li><span>Focus</span><strong>AI · ML · CV</strong></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <p class="eyebrow">ABOUT ME</p>
+    <h2>Driven by questions.<br />Motivated by what I can build.</h2>
+    <p class="lead">
+      My goal is to turn concepts into working solutions and keep growing through hands-on experience.
+    </p>
+
+    <div class="about-grid">
+      <article class="about-card">
+        <span class="num">01</span>
+        <h4>My journey</h4>
+        <p>
+          I'm pursuing a B.Tech in Computer Science &amp; Engineering at Asansol Engineering College.
+          I'm currently strengthening my foundations in Python, data analysis and machine learning
+          while building practical AI applications.
+        </p>
+      </article>
+      <article class="about-card">
+        <span class="num">02</span>
+        <h4>What interests me</h4>
+        <p>
+          Machine learning, deep learning, computer vision and using data to solve meaningful problems.
+          I enjoy learning how models work and connecting them to usable applications.
+        </p>
+      </article>
+      <article class="about-card">
+        <span class="num">03</span>
+        <h4>What I'm working toward</h4>
+        <p>
+          Developing a strong AI/ML portfolio, improving problem-solving skills and preparing for
+          internship and entry-level opportunities.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <p class="eyebrow">SKILLS &amp; TECHNOLOGIES</p>
+    <h2>A growing toolkit built through coursework, practice and project work.</h2>
+
+    <div class="skills-grid">
+      <article class="skill-card">
+        <div class="skill-head"><span class="skill-icon">PY</span><h4>Programming</h4></div>
+        <ul class="tags">
+          <li>Python</li><li>C</li><li>SQL</li>
+        </ul>
+      </article>
+      <article class="skill-card">
+        <div class="skill-head"><span class="skill-icon">AI</span><h4>AI / Machine Learning</h4></div>
+        <ul class="tags">
+          <li>Machine Learning Fundamentals</li><li>Deep Learning</li>
+          <li>Computer Vision</li><li>TensorFlow</li><li>Keras</li>
+        </ul>
+      </article>
+      <article class="skill-card">
+        <div class="skill-head"><span class="skill-icon">DA</span><h4>Data &amp; Application Tools</h4></div>
+        <ul class="tags">
+          <li>NumPy</li><li>pandas</li><li>Streamlit</li><li>SQLite</li><li>Google Colab</li>
+        </ul>
+      </article>
+      <article class="skill-card">
+        <div class="skill-head"><span class="skill-icon">FD</span><h4>Foundations</h4></div>
+        <ul class="tags">
+          <li>Data Structures &amp; Algorithms</li><li>HTML</li><li>CSS</li><li>GitHub</li>
+        </ul>
+      </article>
+    </div>
+
+    <p class="note">Currently strengthening data analysis, visualization and machine learning foundations.</p>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="container">
+    <p class="eyebrow">PROJECTS</p>
+    <h2>Projects that turn learning into practice.</h2>
+    <p class="lead">A practical project built around image classification and an interactive user experience.</p>
+
+    <article class="project-card">
+      <div class="project-visual">
+        <span class="project-index">01</span>
+        <span class="project-emoji">🍎</span>
+      </div>
+      <div class="project-body">
+        <p class="project-cat">Deep Learning · Image Classification · Streamlit</p>
+        <h3>Fruit Quality AI</h3>
+        <p class="project-desc">
+          An interactive application that uses a trained deep-learning model to classify uploaded
+          fruit images as <strong>Fresh</strong> or <strong>Rotten</strong> and display a prediction
+          confidence score.
+        </p>
+
+        <h5>Features</h5>
+        <ul class="feature-list">
+          <li>Image upload and prediction interface</li>
+          <li>User registration and login</li>
+          <li>Prediction history stored with SQLite</li>
+        </ul>
+
+        <h5>Technologies</h5>
+        <ul class="tags">
+          <li>Python</li><li>TensorFlow</li><li>Keras</li><li>Streamlit</li><li>SQLite</li>
+        </ul>
+
+        <a class="btn btn-primary" href="[github.com](https://github.com/SHIVAMJALAN04/Fruit-Quality-AI)" target="_blank" rel="noopener">
+          View source code on GitHub ↗
+        </a>
+        <p class="disclaimer">
+          Project details are presented without unverified accuracy or evaluation claims.
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section section-alt" id="education">
+  <div class="container">
+    <p class="eyebrow">EDUCATION</p>
+    <h2>Asansol Engineering College</h2>
+
+    <div class="edu-card">
+      <div class="edu-dot"></div>
+      <div class="edu-body">
+        <h4>Bachelor of Technology · Computer Science &amp; Engineering</h4>
+        <ul class="edu-meta">
+          <li><span>Expected</span><strong>2028</strong></li>
+          <li><span>CGPA</span><strong>8.00</strong></li>
+          <li><span class="pill">IN PROGRESS</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="container narrow">
+    <p class="eyebrow">HAVE AN OPPORTUNITY OR IDEA?</p>
+    <h2>Let's connect and build.</h2>
+    <p class="lead">
+      I'm open to connecting with fellow learners, developers and teams working on AI/ML opportunities.
+    </p>
+
+    <div class="contact-links">
+      <a href="mailto:aec.cse.shivamjalan@gmail.com">
+        <span class="ico">✉</span>
+        <span class="txt"><strong>Email</strong>aec.cse.shivamjalan@gmail.com</span>
+      </a>
+      <a href="[linkedin.com](https://www.linkedin.com/in/shivam-jalan-9a84753b1/)" target="_blank" rel="noopener">
+        <span class="ico">in</span>
+        <span class="txt"><strong>LinkedIn</strong>shivam-jalan ↗</span>
+      </a>
+      <a href="[github.com](https://github.com/SHIVAMJALAN04)" target="_blank" rel="noopener">
+        <span class="ico">gh</span>
+        <span class="txt"><strong>GitHub</strong>SHIVAMJALAN04 ↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="footer-name">Shivam Jalan</p>
+    <p class="footer-line">Designed &amp; built with curiosity. © <span id="year">2026</span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
